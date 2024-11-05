@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+  <html lang="ja">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>お問い合わせフォーム</title>
+    </head>
+    <body>
+        <header>
+            <a href="kadai.html">Home</a> <a href="kadai2.html">today</a> <a href="kadai3.html">ほしいもの</a>
+        </header>
+      
+        <h1>お問い合わせ入力フォーム</h1>
+      
+        <p>お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
+        
+          <label>お名前<span>必須</span></label><br>
+          <input type="text" name="name" placeholder="例）田和聖羅" value=""><br>
+        
+        
+          <label>ふりがな<span>必須</span></label>
+          <input type="text" name="furigana" placeholder="例）たわせいら" value=""> <br>
+        
+          <label>メールアドレス<span>必須</span></label>
+          <input type="text" name="email" placeholder="例）ktc24a31g0015@example.com" value=""> <br>
+        
+          <label>電話番号<span>必須</span></label>
+          <input type="text" name="tel" placeholder="例）0101010101010" value=""> <br>
+        
+          <label>性別<span>必須</span></label>
+          <input type="radio" name="sex" value="男性" checked> 男性
+          <input type="radio" name="sex" value="女性"> 女性 <br>
+        
+          <label>お問い合わせ種別<span>必須</span></label>
+          <select name="item">
+            <option value="">お問い合わせ項目を選択してください</option>
+            <option value="ご意見・ご感想">ご意見・ご感想</option>
+            <option value="不具合について">不具合について</option>
+            <option value="返信希望">返信希望</option>
+          </select><br>
+          
+          <label>お問い合わせ内容<span>必須</span></label>
+          <textarea name="content" rows="5" placeholder="お問合せ内容を入力"></textarea>
+
+        <button type="submit">確認画面へ</button>
+      </form>
+      <footer>
+        2024/11/05 作成
+      </footer>
+  </body>
+</html>
